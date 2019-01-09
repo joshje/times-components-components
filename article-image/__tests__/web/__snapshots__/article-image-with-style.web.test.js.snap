@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. primary image with caption and credits 1`] = `
+.c0 {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+}
+
+.c1 {
+  padding-left: 10px;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-left: 0px;
+  }
+}
+
+Array [
+  <div>
+    <TimesImage
+      aspectRatio={1.25}
+      caption={
+        <Caption
+          credits="Some credits"
+          text="Some caption"
+        />
+      }
+      fadeImageIn={false}
+      highResSize={null}
+      lowResSize={null}
+      uri="https://img/someImage"
+    />
+  </div>,
+  <div>
+    <responsiveweb__InsetCaptionStyle>
+      <div
+        className="c1"
+      >
+        <div>
+          <div>
+            <div>
+              Some caption
+            </div>
+            <div>
+              SOME CREDITS
+            </div>
+          </div>
+        </div>
+      </div>
+    </responsiveweb__InsetCaptionStyle>
+  </div>,
+]
+`;
+
+exports[`2. secondary image with caption and credits 1`] = `
+.c0 {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+}
+
+Array [
+  <div>
+    <TimesImage
+      aspectRatio={1.5}
+      caption={
+        <Caption
+          credits="Other credits"
+          text="Another caption"
+        />
+      }
+      fadeImageIn={false}
+      highResSize={null}
+      lowResSize={null}
+      uri="https://img/someImage"
+    />
+  </div>,
+  <div>
+    <div>
+      <div>
+        <div>
+          Another caption
+        </div>
+        <div>
+          OTHER CREDITS
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`3. inline image (landscape) with caption and credits 1`] = `
+.c1 {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+}
+
+.c2 {
+  display: inline-block;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  vertical-align: top;
+  width: 50%;
+}
+
+.c0 {
+  display: inline-block;
+  padding-bottom: 20px;
+  vertical-align: top;
+  width: 50%;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    clear: left;
+    float: left;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 20px;
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    padding-left: 0px;
+    width: 35.71429%;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    clear: left;
+    float: left;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-right: 20px;
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    clear: left;
+    width: 35.71429%;
+  }
+}
+
+<figure>
+  <responsiveweb__InsetImageStyle>
+    <div
+      className="c0"
+    >
+      <TimesImage
+        aspectRatio={1.5}
+        fadeImageIn={false}
+        highResSize={null}
+        lowResSize={null}
+        uri="https://img/someImage"
+      />
+    </div>
+  </responsiveweb__InsetImageStyle>
+  <responsiveweb__InsetCaptionContainerStyle>
+    <div
+      className="c2"
+    >
+      <figcaption>
+        <div>
+          <div>
+            <div>
+              Landscape caption
+            </div>
+            <div>
+              LANDSCAPE CREDITS
+            </div>
+          </div>
+        </div>
+      </figcaption>
+    </div>
+  </responsiveweb__InsetCaptionContainerStyle>
+</figure>
+`;
+
+exports[`4. inline image (portrait) with caption and credits 1`] = `
+.c1 {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+}
+
+.c2 {
+  display: inline-block;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  vertical-align: top;
+  width: 50%;
+}
+
+.c0 {
+  display: inline-block;
+  padding-bottom: 20px;
+  vertical-align: top;
+  width: 50%;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    clear: left;
+    float: left;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 20px;
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    padding-left: 0px;
+    width: 35.71429%;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    clear: left;
+    float: left;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-right: 20px;
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    clear: left;
+    width: 35.71429%;
+  }
+}
+
+<figure>
+  <responsiveweb__InsetImageStyle>
+    <div
+      className="c0"
+    >
+      <TimesImage
+        aspectRatio={0.6666666666666666}
+        fadeImageIn={false}
+        highResSize={null}
+        lowResSize={null}
+        uri="https://img/someImage"
+      />
+    </div>
+  </responsiveweb__InsetImageStyle>
+  <responsiveweb__InsetCaptionContainerStyle>
+    <div
+      className="c2"
+    >
+      <figcaption>
+        <div>
+          <div>
+            <div>
+              Portrait caption
+            </div>
+            <div>
+              PORTRAIT CREDITS
+            </div>
+          </div>
+        </div>
+      </figcaption>
+    </div>
+  </responsiveweb__InsetCaptionContainerStyle>
+</figure>
+`;

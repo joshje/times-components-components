@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. default layout 1`] = `
+<View
+  aspectRatio={1.5}
+>
+  <View>
+    <Gradient
+      degrees={264}
+    />
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "http://example.com/image.jpg?crop=1016%2C677%2C0%2C0&resize=1000",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`2. default layout without uri 1`] = `
+<View
+  aspectRatio={1.5}
+>
+  <View>
+    <Gradient
+      degrees={264}
+    />
+  </View>
+  <Image
+    source={null}
+  />
+</View>
+`;
+
+exports[`3. handle layout change 1`] = `
+<View
+  aspectRatio={1.5}
+>
+  <View>
+    <Gradient
+      degrees={264}
+    >
+      <View>
+        <Svg
+          height={164.46700507614213}
+          version="1.1"
+          viewBox="145 50 108 120"
+          width={164.46700507614213}
+        >
+          <G
+            fill="none"
+            fillRule="evenodd"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <Path
+              d="6a6c07166e9c40e4f62e57af2b507822"
+              fill="#FFFFFF"
+            />
+          </G>
+        </Svg>
+      </View>
+    </Gradient>
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "http://example.com/image.jpg?crop=1016%2C677%2C0%2C0&resize=800",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`4. prepend https schema 1`] = `
+<View
+  aspectRatio={1.5}
+>
+  <View>
+    <Gradient
+      degrees={264}
+    />
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "https://example.com/image.jpg?crop=1016%2C677%2C0%2C0&resize=900",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`5. handle onload event 1`] = `
+<View
+  aspectRatio={1.5}
+>
+  <View>
+    <Gradient
+      degrees={264}
+    />
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "http://example.com/image.jpg?crop=1016%2C677%2C0%2C0&resize=900",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`5. handle onload event 2`] = `
+<View
+  aspectRatio={1.5}
+>
+  <Image
+    source={
+      Object {
+        "uri": "http://example.com/image.jpg?crop=1016%2C677%2C0%2C0&resize=900",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`7. use screen width if highressize is not provided 1`] = `
+<View
+  aspectRatio={1.5}
+>
+  <View>
+    <Gradient
+      degrees={264}
+    />
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "http://example.com/image.jpg?crop=1016%2C677%2C0%2C0&resize=1440",
+      }
+    }
+  />
+</View>
+`;

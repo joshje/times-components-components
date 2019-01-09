@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. red article flag 1`] = `
+<style>
+.S1 {
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.S2 {
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.IS1 {
+  margin-right: 5px;
+}
+
+.IS2 {
+  color: rgba(255,0,0,1.00);
+  font-family: TimesDigitalW04-RegularSC;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  line-height: 12px;
+}
+
+.IS3 {
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+</style>
+
+<div
+  className="IS3 S2"
+>
+  <div
+    className="IS1 S1"
+  >
+    <IconDiamond />
+  </div>
+  <div
+    className="IS2 S2"
+  >
+    coloured red
+  </div>
+</div>
+`;

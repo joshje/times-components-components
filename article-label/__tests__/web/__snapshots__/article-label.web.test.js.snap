@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Label test on web renders ArticleLabel 1`] = `
+<div
+  dir="auto"
+  style={
+    Object {
+      "color": "rgba(0,131,71,1.00)",
+    }
+  }
+>
+  SWIMMING
+</div>
+`;

@@ -1,0 +1,13 @@
+{
+  "name": "bold",
+  "attributes": {},
+  "children": [
+    {
+      "name": "text",
+      "attributes": {
+        "value": "some text here"
+      },
+      "children": []
+    }
+  ]
+}

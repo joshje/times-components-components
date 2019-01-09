@@ -1,0 +1,122 @@
+{
+  "name": "block",
+  "attributes": {},
+  "children": [
+    {
+      "name": "block",
+      "attributes": {},
+      "children": [
+        {
+          "name": "link",
+          "attributes": {
+            "href": "http://www.google.com"
+          },
+          "children": [
+            {
+              "name": "text",
+              "attributes": {
+                "value": "some link here (link)"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "attributes": {},
+      "children": [
+        {
+          "name": "bold",
+          "attributes": {},
+          "children": [
+            {
+              "name": "text",
+              "attributes": {
+                "value": "some text here (bold)"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "attributes": {},
+      "children": [
+        {
+          "name": "strong",
+          "attributes": {},
+          "children": [
+            {
+              "name": "text",
+              "attributes": {
+                "value": "some text there (strong)"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "attributes": {},
+      "children": [
+        {
+          "name": "italic",
+          "attributes": {},
+          "children": [
+            {
+              "name": "text",
+              "attributes": {
+                "value": "some more text here (italic)"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "attributes": {},
+      "children": [
+        {
+          "name": "emphasis",
+          "attributes": {},
+          "children": [
+            {
+              "name": "text",
+              "attributes": {
+                "value": "some more text there (emphasis)"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "attributes": {},
+      "children": [
+        {
+          "name": "inline",
+          "attributes": {},
+          "children": [
+            {
+              "name": "text",
+              "attributes": {
+                "value": "some other text here (inline)"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

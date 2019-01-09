@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. with a single author 1`] = `
+<style>
+.S1 {
+  color: rgba(0,102,153,1.00);
+  font-family: GillSansMTStd-Medium;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.S2 {
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+</style>
+
+<div
+  className="S2"
+>
+  <a
+    className="S1"
+    href="/profile/alexandra-frean"
+    role="link"
+  >
+    Alexandra Frean
+  </a>
+</div>
+`;
+
+exports[`2. with a very long byline 1`] = `
+<style>
+.S1 {
+  color: rgba(0,102,153,1.00);
+  font-family: GillSansMTStd-Medium;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.S2 {
+  color: rgba(105,105,105,1.00);
+  -ms-flex-direction: row;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  font-family: GillSansMTStd-Medium;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.S3 {
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+</style>
+
+<div
+  className="S3"
+>
+  <a
+    className="S1"
+    href="/profile/camilla-long"
+    role="link"
+  >
+    Camilla Long
+  </a>
+  <div
+    className="S2"
+  >
+    , Environment Editor | 
+  </div>
+  <a
+    className="S1"
+    href="/profile/camilla-long"
+    role="link"
+  >
+    Camilla Long
+  </a>
+  <div
+    className="S2"
+  >
+    , Environment Editor | 
+  </div>
+  <a
+    className="S1"
+    href="/profile/camilla-long"
+    role="link"
+  >
+    Camilla Long
+  </a>
+  <div
+    className="S2"
+  >
+    , Environment Editor
+  </div>
+</div>
+`;

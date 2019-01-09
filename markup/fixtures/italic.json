@@ -1,0 +1,13 @@
+{
+  "name": "italic",
+  "attributes": {},
+  "children": [
+    {
+      "name": "text",
+      "attributes": {
+        "value": " some more text here"
+      },
+      "children": []
+    }
+  ]
+}

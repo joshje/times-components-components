@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The React Native Web serializer should effect children 1`] = `
+<style>
+.S1 {
+  font-size: 9px;
+}
+</style>
+
+<div>
+  <div
+    className="S1"
+    dir="auto"
+  >
+    Hello World!
+  </div>
+</div>
+`;
+
+exports[`The React Native Web serializer should effect multiple children 1`] = `
+<style>
+.S1 {
+  font-size: 9px;
+}
+
+.S2 {
+  font-size: 10px;
+}
+
+.S3 {
+  font-size: 11px;
+}
+</style>
+
+<div>
+  <div
+    className="S1"
+    dir="auto"
+  >
+    child 1
+  </div>
+  <div
+    className="S2"
+    dir="auto"
+  >
+    child 2
+  </div>
+  <div>
+    <div
+      className="S3"
+      dir="auto"
+    >
+      child 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The React Native Web serializer should effect render props 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`The React Native Web serializer should remove rnw-classnames and hoist the styles 1`] = `
+<style>
+.S1 {
+  color: rgba(255,0,0,1.00);
+}
+</style>
+
+<div
+  className="S1"
+  dir="auto"
+  testFunc={[Function]}
+/>
+`;
+
+exports[`The React Native Web serializer should squash identical styles 1`] = `
+<style>
+.S1 {
+  font-size: 10px;
+}
+</style>
+
+<div>
+  <div
+    className="S1"
+    dir="auto"
+  >
+    child 1
+  </div>
+  <div
+    className="S1"
+    dir="auto"
+  >
+    child 2
+  </div>
+  <div>
+    <div
+      className="S1"
+      dir="auto"
+    >
+      child 3
+    </div>
+  </div>
+</div>
+`;

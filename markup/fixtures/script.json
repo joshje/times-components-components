@@ -1,0 +1,15 @@
+[
+  {
+    "name": "script",
+    "attributes": {},
+    "children": [
+      {
+        "name": "script",
+        "attributes": {
+          "src": "http://www.evil.com"
+        },
+        "children": []
+      }
+    ]
+  }
+]

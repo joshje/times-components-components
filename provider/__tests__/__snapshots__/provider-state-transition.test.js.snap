@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`provider execution order tests should be able to be in isLoading and isDebouncing state simultaneously 1`] = `
+Array [
+  Object {
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": true,
+    "refetch": [Function],
+    "slug": "1",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": true,
+    "refetch": [Function],
+    "slug": "2",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "author": Object {
+      "__typename": "Author",
+      "name": "1",
+    },
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": false,
+    "refetch": [Function],
+    "slug": "2",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "author": Object {
+      "__typename": "Author",
+      "name": "1",
+    },
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "2",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": true,
+    "refetch": [Function],
+    "slug": "2",
+    "variables": Object {
+      "slug": "2",
+    },
+  },
+]
+`;
+
+exports[`provider execution order tests should resolve in order 1`] = `
+Array [
+  Object {
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": true,
+    "refetch": [Function],
+    "slug": "1",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "author": Object {
+      "__typename": "Author",
+      "name": "1",
+    },
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": false,
+    "refetch": [Function],
+    "slug": "1",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "author": Object {
+      "__typename": "Author",
+      "name": "1",
+    },
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": false,
+    "refetch": [Function],
+    "slug": "2",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "author": Object {
+      "__typename": "Author",
+      "name": "1",
+    },
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "1",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": true,
+    "isLoading": false,
+    "refetch": [Function],
+    "slug": "3",
+    "variables": Object {
+      "slug": "1",
+    },
+  },
+  Object {
+    "author": Object {
+      "__typename": "Author",
+      "name": "1",
+    },
+    "debounceTimeMs": 1000,
+    "debouncedProps": Object {
+      "children": [Function],
+      "debounceRender": [Function],
+      "debounceTimeMs": 1000,
+      "slug": "3",
+    },
+    "error": undefined,
+    "fetchMore": [Function],
+    "isDebouncing": false,
+    "isLoading": true,
+    "refetch": [Function],
+    "slug": "3",
+    "variables": Object {
+      "slug": "3",
+    },
+  },
+]
+`;

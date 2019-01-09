@@ -1,0 +1,6 @@
+{
+  "extends": ["@times-components/thetimes"],
+  "env": {
+    "jest": true
+  }
+}

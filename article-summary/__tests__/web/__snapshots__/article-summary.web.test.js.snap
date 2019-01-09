@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. article summary component with a single paragraph 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+  <div>
+    <ArticleByline
+      ast={
+        Array [
+          Object {
+            "attributes": Object {
+              "slug": "camilla-long",
+            },
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "Camilla Long",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "author",
+          },
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": ", Environment Editor",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`2. article summary with opinion byline 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <div>
+    <ArticleBylineOpinion
+      ast={
+        Array [
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "A byline",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+      isOpinionByline={true}
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+</div>
+`;
+
+exports[`3. article summary component with multiple paragraphs 1`] = `
+<div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph 1.
+    </span>
+    <span>
+       
+      Test paragraph 2
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+  <div>
+    <ArticleByline
+      ast={
+        Array [
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "A byline",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`4. article summary component with content including line breaks 1`] = `
+<div>
+  <div>
+    <span>
+      
+      <b>
+        Review 1
+      </b>
+      <br />
+       ITV
+      <br />
+      ★★★★☆
+    </span>
+    <span>
+       
+      <b>
+        Review 2
+      </b>
+      <br />
+       BBC Two
+      <br />
+      ★★★☆☆
+    </span>
+    <span>
+       
+      Test paragraph
+      ...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`5. article summary component containing links 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      <span>
+        Sajid Javid
+      </span>
+       has warned the Home Office to expect an overhaul after the 
+      <span>
+        Windrush scandal
+      </span>
+       as he ditches the policy of creating a “hostile
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+</div>
+`;
+
+exports[`6. article summary component with headline and no content 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <DatePublication
+      date="2017-07-01T14:32:00.000Z"
+      publication="SUNDAYTIMES"
+    />
+  </div>
+</div>
+`;
+
+exports[`7. article summary component with empty content at the end trimmed 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph 1.
+    </span>
+    <span>
+       
+      Test paragraph 2
+    </span>
+    <span>
+       
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-07-01T14:32:00.000Z"
+      publication="SUNDAYTIMES"
+    />
+  </div>
+  <div>
+    <ArticleByline
+      ast={
+        Array [
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "A byline",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`8. article summary component with no byline 1`] = `
+<div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+</div>
+`;
+
+exports[`9. article summary component with no label 1`] = `
+<div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+  <div>
+    <ArticleByline
+      ast={
+        Array [
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "A byline",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`10. article summary component with no headline 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-07-01T14:32:00.000Z"
+      publication="SUNDAYTIMES"
+    />
+  </div>
+</div>
+`;
+
+exports[`11. article summary component with no date publication 1`] = `
+<div>
+  <div>
+    <ArticleLabel
+      color="#333333"
+      title="Test label"
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <ArticleByline
+      ast={
+        Array [
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "A byline",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`12. article summary component with a video label 1`] = `
+<div>
+  <div>
+    <VideoLabel
+      color="#333333"
+      isVideo={true}
+      title="Test label"
+    />
+  </div>
+  <h3
+    aria-level="3"
+    role="heading"
+  >
+    Test Headline
+  </h3>
+  <div>
+    <span>
+      
+      Test paragraph
+      ...
+    </span>
+  </div>
+  <div>
+    <DatePublication
+      date="2017-11-17T00:01:00.000Z"
+      publication="TIMES"
+    />
+  </div>
+  <div>
+    <ArticleByline
+      ast={
+        Array [
+          Object {
+            "attributes": Object {},
+            "children": Array [
+              Object {
+                "attributes": Object {
+                  "value": "A byline",
+                },
+                "children": Array [],
+                "name": "text",
+              },
+            ],
+            "name": "inline",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

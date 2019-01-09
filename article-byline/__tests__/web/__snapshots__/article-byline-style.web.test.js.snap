@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. with a single author 1`] = `
+<style>
+.S1 {
+  color: rgba(51,51,51,1.00);
+  -ms-flex-direction: row;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  font-family: GillSansMTStd-Medium;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.S2 {
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+</style>
+
+<div
+  className="S2"
+>
+  <div
+    className="S1"
+  >
+    Alexandra Frean
+  </div>
+</div>
+`;
+
+exports[`2. with a very long byline 1`] = `
+<style>
+.S1 {
+  color: rgba(51,51,51,1.00);
+  -ms-flex-direction: row;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  font-family: GillSansMTStd-Medium;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.S2 {
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+</style>
+
+<div
+  className="S2"
+>
+  <div
+    className="S1"
+  >
+    Camilla Long
+  </div>
+  <div
+    className="S1"
+  >
+    , Environment Editor | 
+  </div>
+  <div
+    className="S1"
+  >
+    Camilla Long
+  </div>
+  <div
+    className="S1"
+  >
+    , Environment Editor | 
+  </div>
+  <div
+    className="S1"
+  >
+    Camilla Long
+  </div>
+  <div
+    className="S1"
+  >
+    , Environment Editor
+  </div>
+</div>
+`;

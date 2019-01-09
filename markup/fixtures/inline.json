@@ -1,0 +1,13 @@
+{
+  "name": "inline",
+  "attributes": {},
+  "children": [
+    {
+      "name": "text",
+      "attributes": {
+        "value": "some other text here"
+      },
+      "children": []
+    }
+  ]
+}

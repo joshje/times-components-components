@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. default image 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Gradient
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <Image
+    style={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 1,
+      }
+    }
+  />
+</View>
+`;
