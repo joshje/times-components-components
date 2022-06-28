@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@times-components/provider > react-apollo > lodash':
+        patched: '2022-06-28T20:20:02.591Z'
+  'npm:lodash:20180130':
+    - '@times-components/button > @times-components/utils > react-native > plist > xmlbuilder > lodash':
+        patched: '2022-06-28T20:20:02.591Z'
