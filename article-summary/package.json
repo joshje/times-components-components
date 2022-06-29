@@ -15,7 +15,9 @@
     "prepublishOnly": "yarn transpile && yarn bundle",
     "cleanup-dist": "rm -rf dist",
     "transpile": "yarn cleanup-dist && babel src -d dist",
-    "bundle": "NODE_ENV=production webpack -p"
+    "bundle": "NODE_ENV=production webpack -p",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -67,8 +69,9 @@
     "@times-components/markup": "3.2.34",
     "@times-components/markup-forest": "1.2.8",
     "@times-components/styleguide": "3.12.2",
-    "@times-components/video-label": "2.1.67",
-    "prop-types": "15.6.2"
+    "@times-components/video-label": "2.3.21",
+    "prop-types": "15.6.2",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "react": ">=16.5",
@@ -78,5 +81,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
